@@ -39,8 +39,8 @@ namespace TPObjet
             set { 
                 if(Registrations.Contains(value))
                 {
+                    Registrations.Remove(_registration);
                     _registration =  "";
-                    Registrations.Remove(value);
                 }
                 //Registrations.Exists(
                 //    (valeuritem) =>  {return SearchRegistrationWithChar(valeuritem, 'A'); });
