@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 using TP_Point;
 
 namespace TP_Cercle;
-
+/// <summary>
+/// Représente un cercle
+/// </summary>
 internal class Cercle
 {
 
@@ -20,7 +22,9 @@ internal class Cercle
     /// </summary>
     public double Rayon {get; private set;}
 
-
+    /// <summary>
+    /// Constructeur
+    /// </summary>
     public Cercle()
     {
         double  abscisse;
@@ -37,6 +41,11 @@ internal class Cercle
         Rayon = double.Parse(Console.ReadLine());
     }
 
+    /// <summary>
+    /// Constructeur du cercle avec rayon et origine
+    /// </summary>
+    /// <param name="centre">Origine du cercle</param>
+    /// <param name="rayon">Rayon du cercle</param>
     public Cercle(Point centre, double rayon)
     {
         Centre = centre;
@@ -44,16 +53,29 @@ internal class Cercle
     }
 
 
+    /// <summary>
+    /// PErmet de calculer le périmètre
+    /// </summary>
+    /// <returns>Retourne le périmètre du cercle</returns>
     public double GetPerimetre()
     {
         return Math.PI * Rayon;
     }
 
+    /// <summary>
+    /// PErmet de calculer la surface du cercle
+    /// </summary>
+    /// <returns>Retourne la surface du cercle</returns>
     public double GetSurface()
     {
         return Math.PI * Math.Pow(Rayon, 2);
     }
 
+    /// <summary>
+    /// Permet de savoir si un point appartient au cercle
+    /// </summary>
+    /// <param name="searchPoint">Point à rechercher</param>
+    /// <returns>Retourne si le point appartient au cercle</returns>
     public bool Appartient(Point searchPoint)
     {
         double distanceAbscisse = Math.Sqrt(
@@ -65,6 +87,9 @@ internal class Cercle
         return distanceAbscisse <= Rayon && distanceOrdonee <= Rayon;
     }
 
+    /// <summary>
+    /// Affiche les informations du cercle
+    /// </summary>
     public void Afficher()
     {
         Console.WriteLine($"CERCLE({Centre.Abscisse},{Centre.Ordonne},{Rayon})");

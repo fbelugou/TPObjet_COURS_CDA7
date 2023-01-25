@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace TP_Point;
 
+/// <summary>
+/// Représente un point
+/// </summary>
 internal class Point
 {
     /// <summary>
