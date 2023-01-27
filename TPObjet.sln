@@ -5,21 +5,27 @@ VisualStudioVersion = 17.5.33209.295
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TP4", "TPObjet\TP4.csproj", "{21E92F65-AA29-4D2E-9267-11382886B56D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TP_Point", "TP_Point\TP_Point.csproj", "{DA4E37C0-3FF7-4772-9846-07FE89735BFD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TP_Point", "TP_Point\TP_Point.csproj", "{DA4E37C0-3FF7-4772-9846-07FE89735BFD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TP_Livre", "TP_Livre\TP_Livre.csproj", "{761E16D7-1A40-4F26-81EB-7882B6746FD8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TP_Livre", "TP_Livre\TP_Livre.csproj", "{761E16D7-1A40-4F26-81EB-7882B6746FD8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TP_Cercle", "TP_Cercle\TP_Cercle.csproj", "{D29E6E04-6378-4C2F-A1C5-BCCDC68194F3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TP_Cercle", "TP_Cercle\TP_Cercle.csproj", "{D29E6E04-6378-4C2F-A1C5-BCCDC68194F3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TP_Employe", "TP_Employe\TP_Employe.csproj", "{D0018E44-31B0-4E4E-89AC-DFA7468137BF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TP_Employe", "TP_Employe\TP_Employe.csproj", "{D0018E44-31B0-4E4E-89AC-DFA7468137BF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tp_Article", "Tp_Article\Tp_Article.csproj", "{DA9520F3-6C22-43B8-86FA-130CDECAAB26}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tp_Article", "Tp_Article\Tp_Article.csproj", "{DA9520F3-6C22-43B8-86FA-130CDECAAB26}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tp_Compte", "Tp_Compte\Tp_Compte.csproj", "{9098525B-A505-4048-9B21-1A40CD7F0857}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tp_Compte", "Tp_Compte\Tp_Compte.csproj", "{9098525B-A505-4048-9B21-1A40CD7F0857}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tp_Heritage_Batiment", "Tp_Heritage_Batiment\Tp_Heritage_Batiment.csproj", "{749833A6-2A0C-4249-8E77-D92292E82697}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tp_Heritage_Batiment", "Tp_Heritage_Batiment\Tp_Heritage_Batiment.csproj", "{749833A6-2A0C-4249-8E77-D92292E82697}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tp_HeritageVecteur", "Tp_HeritageVecteur\Tp_HeritageVecteur.csproj", "{D8776B5F-0A06-4EB7-9202-4602E4F78628}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tp_HeritageVecteur", "Tp_HeritageVecteur\Tp_HeritageVecteur.csproj", "{D8776B5F-0A06-4EB7-9202-4602E4F78628}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tp_Heritage_Compte", "Tp_Heritage_Compte\Tp_Heritage_Compte.csproj", "{27F6F367-6981-4445-8B20-E7A565ED810B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TP_Banque", "TP_Banque\TP_Banque.csproj", "{43D0D0A7-C1EC-4882-B290-7DE88D29D574}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tp_Formes_Geometrique", "Tp_Formes_Geometrique\Tp_Formes_Geometrique.csproj", "{D9B65F0D-679B-4397-9F68-08D0306B9681}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -63,6 +69,18 @@ Global
 		{D8776B5F-0A06-4EB7-9202-4602E4F78628}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D8776B5F-0A06-4EB7-9202-4602E4F78628}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D8776B5F-0A06-4EB7-9202-4602E4F78628}.Release|Any CPU.Build.0 = Release|Any CPU
+		{27F6F367-6981-4445-8B20-E7A565ED810B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27F6F367-6981-4445-8B20-E7A565ED810B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27F6F367-6981-4445-8B20-E7A565ED810B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27F6F367-6981-4445-8B20-E7A565ED810B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{43D0D0A7-C1EC-4882-B290-7DE88D29D574}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43D0D0A7-C1EC-4882-B290-7DE88D29D574}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43D0D0A7-C1EC-4882-B290-7DE88D29D574}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{43D0D0A7-C1EC-4882-B290-7DE88D29D574}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D9B65F0D-679B-4397-9F68-08D0306B9681}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D9B65F0D-679B-4397-9F68-08D0306B9681}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D9B65F0D-679B-4397-9F68-08D0306B9681}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D9B65F0D-679B-4397-9F68-08D0306B9681}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
